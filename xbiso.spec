@@ -7,7 +7,6 @@ License:	GPLv2+
 URL:		http://sourceforge.net/projects/xbiso/
 Source0:	http://downloads.sourceforge.net/xbiso/%{name}-%{version}.tar.gz
 Patch0:		xbiso-0.6.1-destdir.patch
-#BuildRequires:	ftplib-devel
 
 %description
 xbiso is an ISO extraction utility for xdvdfs images.
@@ -18,12 +17,10 @@ xbiso is an ISO extraction utility for xdvdfs images.
 
 %build
 %configure
-make %{?_smp_mflags}
+%make
 
 %install
-#mkdir $RPM_BUILD_ROOT
 mkdir -p %{buildroot}%{_bindir}
-#make DESTDIR=$RPM_BUILD_ROOT install
 %makeinstall_std
 
 %files
