@@ -7,6 +7,7 @@ License:	GPLv2+
 URL:		http://sourceforge.net/projects/xbiso/
 Source0:	http://downloads.sourceforge.net/xbiso/%{name}-%{version}.tar.gz
 Patch0:		xbiso-0.6.1-destdir.patch
+BuildRequires:	libftp-devel
 
 %description
 xbiso is an ISO extraction utility for xdvdfs images.
