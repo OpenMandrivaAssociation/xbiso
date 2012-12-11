@@ -27,3 +27,12 @@ mkdir -p %{buildroot}%{_bindir}
 %files
 %doc CHANGELOG LICENSE README
 %{_bindir}/xbiso
+
+
+%changelog
+* Fri Dec 23 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.6.1-1
++ Revision: 744798
+- BR fix
+- removed unneeded lines
+- imported package xbiso
+
