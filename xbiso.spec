@@ -4,7 +4,7 @@ Release:	2
 Summary:	ISO extraction utility for xdvdfs images
 Group:		Archiving/Cd burning
 License:	GPLv2+
-URL:		http://sourceforge.net/projects/xbiso/
+URL:		https://sourceforge.net/projects/xbiso/
 Source0:	http://downloads.sourceforge.net/xbiso/%{name}-%{version}.tar.gz
 Patch0:		xbiso-0.6.1-destdir.patch
 BuildRequires:	libftp-devel
